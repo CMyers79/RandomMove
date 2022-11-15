@@ -1,1 +1,1 @@
-web: gunicorn random_move:app
+web: gunicorn wsgi:app
