@@ -15,7 +15,8 @@ def get_move():
             array.remove(our_number)
             new_array = array
             req_data['array'] = new_array
-            return jsonify(new_array)
+            req_data['move'] = our_number
+            return jsonify(req_data)
     else:
         print(req_data)
 
