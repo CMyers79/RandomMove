@@ -1,1 +1,1 @@
-web: gunicorn imagechoice.wsgi --log-file -
+web: gunicorn random_move.wsgi --log-file -
