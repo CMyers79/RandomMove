@@ -1,1 +1,1 @@
-web: gunicorn random_move.wsgi --log-file -
+web: gunicorn randommove.wsgi --log-file -
